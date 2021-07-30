@@ -1,15 +1,9 @@
 
-# sal = input("Please enter the salary: \n")
-
-# hr = 4 * sal
-# da = 2 * sal
-# gs = hr + da + sal
-
-# mul = 3 * 4
-
-sal = input("Enter the number")
-
-mul = sal * 100
+sal = float(input("Please enter the salary: \n"))
 
 
-print(f"The gross salary: {mul}")
+hr = 0.4 * sal
+da = 0.2 * sal
+gs = hr + da + sal
+
+print(f"The gross salary: ", gs)
